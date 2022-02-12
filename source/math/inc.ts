@@ -1,3 +1,1 @@
-export const inc = (n: number) => {
-  return n + 1
-}
+export const inc = (n: number) => n + 1

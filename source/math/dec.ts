@@ -1,3 +1,1 @@
-export const dec = (n: number) => {
-  return n - 1
-}
+export const dec = (n: number) => n - 1

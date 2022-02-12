@@ -1,3 +1,4 @@
 export const divide = (dividend: number) => (divisor: number) => {
-  return dividend / divisor
+  const quotient = dividend / divisor
+  return quotient
 }
