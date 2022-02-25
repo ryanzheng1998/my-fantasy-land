@@ -1,4 +1,4 @@
-import { divide } from '../source/math/divide'
+import { divide } from '../../source/math/divide'
 
 describe('simple', () => {
   test('divide two number', () => {

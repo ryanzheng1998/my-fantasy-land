@@ -1,4 +1,4 @@
-import { sum } from '../source/math/sum'
+import { sum } from '../../source/math/sum'
 
 describe('simple', () => {
   test('sum', () => {

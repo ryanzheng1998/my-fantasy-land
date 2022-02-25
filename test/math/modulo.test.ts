@@ -1,5 +1,5 @@
-import { modulo } from '../source/math/modulo'
-import { NatureNumber } from '../source/math/types'
+import { modulo } from '../../source/math/modulo'
+import { NatureNumber } from '../../source/math/types'
 
 describe('simple', () => {
   test('modulo', () => {

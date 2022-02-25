@@ -1,4 +1,4 @@
-import { add } from '../source/math/add'
+import { add } from '../../source/math/add'
 
 describe('simple', () => {
   test('add', () => {
