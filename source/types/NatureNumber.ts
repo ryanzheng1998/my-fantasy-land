@@ -1,8 +1,8 @@
-import { Numaric } from './Numaric'
+import { Numeric } from './Numeric'
 
 export type NatureNumber = Brand<number, 'natureNumber'>
 
-export const NatureNumberOperator: Numaric<NatureNumber> = {
+export const NatureNumberOperator: Numeric<NatureNumber> = {
   isValid: (n): n is NatureNumber => {
     return Number.isInteger(n) && n > 0
   },
