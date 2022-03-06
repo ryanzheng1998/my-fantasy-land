@@ -1,5 +1,4 @@
 import { Numeric } from './Numeric'
-import { clamp } from '../clamp'
 
 export type Vector = {
   x: number

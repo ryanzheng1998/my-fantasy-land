@@ -1,5 +1,6 @@
 import { IMPOSSIBLE, newError } from '../newError'
 import { Brand } from './Brand'
+import { Ord } from './Ord'
 
 export type Float = Brand<number, 'Float'>
 
@@ -41,6 +42,11 @@ const multiply = (a: Float) => (b: Float) => {
   }
 
   return IMPOSSIBLE
+}
+
+const ordNumber: Ord<Float> = {
+  equals: (a) => (b) => a === b,
+  compare: (a) => (b) => a < b ? (a > b ? 1 : -1) : 0,
 }
 
 const FloatOperator = {
